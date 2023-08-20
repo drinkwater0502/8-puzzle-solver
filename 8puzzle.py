@@ -41,7 +41,7 @@ def calculate_h(start_grid, goal_grid):
     differences = 0
     for i in range(len(start_grid)):
         for j in range(len(start_grid[i])):
-            if start_grid[i][j] != 'b': # take this line out later and see if it still works
+            if start_grid[i][j] != 'b':
                 if start_grid[i][j] != goal_grid[i][j]:
                     differences += 1
 
@@ -75,7 +75,7 @@ def check_solved(start_grid, goal_grid):
     differences = 0
     for i in range(len(start_grid)):
         for j in range(len(start_grid[i])):
-            if start_grid[i][j] != 'b': # take this line out later and see if it still works
+            if start_grid[i][j] != 'b':
                 if start_grid[i][j] != goal_grid[i][j]:
                     differences += 1
 
