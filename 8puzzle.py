@@ -100,8 +100,8 @@ class PriorityQueue:
             raise IndexError("Queue is empty")
         return self.elements.pop(0)[1]
 
-start = [[3,2,5],[8,1,4],[7,6,'b']]
-goal = [[1,2,3],[4,5,6],[7,8,'b']]
+start = [['u','h','u'],['g','u','h'],['u','b','u']]
+goal = [['h','u','b'],['u','u','u'],['h','u','g']]
 
 closed = []
 
